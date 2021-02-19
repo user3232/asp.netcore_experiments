@@ -1,0 +1,19 @@
+GET https://localhost:5001/api/questions?includeAnswers=true
+###
+GET https://localhost:5001/api/questions?includeAnswers=true&opts=sql
+###
+GET https://localhost:5001/api/questions
+###
+GET https://localhost:5001/api/questions?search=&includeAnswers=
+###
+GET https://localhost:5001/api/questions?includeAnswers=true
+###
+GET https://localhost:5001/api/questions?search=&includeAnswers=yo
+###
+GET https://localhost:5001/api/questions?search=w&includeAnswers=true
+###
+GET https://localhost:5001/api/questions?search=w&includeAnswers=false&fetchanswersoptimizations=none
+###
+GET https://localhost:5001/api/questions?search=w&includeAnswers=true&fetchanswersoptimizations=x
+###
+GET https://localhost:5001/api/questions?search=w&includeAnswers=true&fetchanswersoptimizations=

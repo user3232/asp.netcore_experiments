@@ -1,0 +1,7 @@
+# ignores all private keys
+**.key
+# ignore all node_modules
+# ignore all bin sub-items
+**/bin
+# ignore all obj sub-items
+**/obj

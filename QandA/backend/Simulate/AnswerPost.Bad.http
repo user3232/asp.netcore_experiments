@@ -1,0 +1,17 @@
+POST https://localhost:5001/api/questions/answer HTTP/1.1
+Content-Type: application/json
+
+{
+  "questionId": 1,
+  "userId": "3",
+  "created": "2019-05-23T13:07:00"
+}
+
+
+# curl --cacert mkcerts/ca/root-ca-localhost.mk.crt \
+
+# curl --request POST \
+#   --url https://localhost:5001/api/questions/answer \
+#   --header 'content-type: application/json' \
+#   --header 'user-agent: vscode-restclient' \
+#   --data '{"questionId": 1,"userId": "3","userName": "fred.test@test.com","created": "2019-05-23T13:07:00"}'

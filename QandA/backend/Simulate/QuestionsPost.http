@@ -1,0 +1,23 @@
+# must use :5000 because it is http access point
+# :5001 is for https requests
+POST https://localhost:5001/api/questions HTTP/1.1
+# Host: localhost:5000
+Content-Type: application/json
+
+{
+    "title": "Sending request form Postman",
+    "content": "Does not matter",
+    "userId": "1",
+    "userName": "bob.test@test.com",
+    "created":"2020-09-20T14:26:45"
+}
+
+# curl --location --request POST 'localhost:5000/api/questions' \
+# --header 'Content-Type: application/json' \
+# --data-raw '{
+#     "title": "Sending request form Postman",
+#     "content": "Does not matter",
+#     "userId": "1",
+#     "userName": "bob.test@test.com",
+#     "created":"2020-09-20T14:26:45"
+# }' 

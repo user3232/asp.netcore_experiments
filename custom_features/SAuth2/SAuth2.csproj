@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+
+  <PropertyGroup>
+    <!-- turn on C# 9.0 for this project -->
+    <LangVersion>preview</LangVersion>
+  </PropertyGroup>
+
+</Project>
